@@ -75,6 +75,7 @@ void append_data(string filename, string content){
 }
 
 int main() {
+    user_input_Data("Mohit.txt");
     open_binary_file("binary_file.bin");
     write_binary_file("binary_file.bin", "Hello, World! This is the binary file content.");
     read_binary_file("binary_file.bin");
